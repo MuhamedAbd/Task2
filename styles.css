@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 body {
@@ -10,103 +9,100 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #2c2c2c; /* Dark background */
-    margin: 0;
+    background-color: #2c2c2c; 
 }
 
 .profile-card {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    max-width: 800px;
+    width: 90vw; 
+    max-width: 800px; 
     background-color: #333;
     color: #e0e0e0;
-    border-radius: 10px;
+    border-radius: 1vh; 
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.5);
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 2vh 2vw; 
     background-color: #212121;
     color: #ffeb3b;
 }
 
 .profile-photo {
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 8vh; 
+    height: 8vh;
 }
 
 .header-content {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
+    margin-left: 2vw; 
 }
 
 .header-content h1 {
-    font-size: 1.4rem;
+    font-size: 2.5vh; 
 }
 
 .header-content p {
-    font-size: 0.9rem;
+    font-size: 1.5vh; 
 }
 
 .more-about-btn {
     background-color: #424242;
     border: none;
-    padding: 5px 10px;
+    padding: 1vh 2vw; 
     color: #fff;
-    border-radius: 5px;
+    border-radius: 0.5vh;
     cursor: pointer;
+    font-size: 1.5vh; 
 }
 
 .main-content {
-    padding: 20px;
+    padding: 2vh 2vw; 
     background-color: #e0e0e0;
     color: #333;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1vh; 
     flex-grow: 1;
 }
 
 .languages, .technologies {
     display: flex;
-    flex-direction: column; /* Stack each item vertically */
-    gap: 10px;
+    flex-direction: column; 
+    gap: 1vh; 
 }
 
 .language-item, .technology-item {
     display: flex;
     align-items: center;
-    gap: 10px; /* Space between icon and text */
+    gap: 1vw; 
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 4vh; 
+    height: 4vh;
 }
 
 .footer {
     background-color: #212121;
-    padding: 10px;
+    padding: 1vh 2vw; 
     color: #e0e0e0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.5vh; 
 }
 
 .footer-content a {
     text-decoration: none;
     color: #ffeb3b;
-    margin-left: 10px;
-    font-size: 0.9rem;
-}
-
-.footer-content a:hover {
-    text-decoration: underline;
+    margin-left: 1vw; 
+    font-size: 1.5vh; 
 }
